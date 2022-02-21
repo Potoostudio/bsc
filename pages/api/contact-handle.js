@@ -35,9 +35,9 @@ export default function (req, res) {
 
       transporter.sendMail(mailData, function (err, info) {
         if(err)
-          console.log(err)
+          console.log(`error occurred ${err}`)
         else
-          console.log(info)
+          console.log(`form info is sent! ${info}`)
       })
       res.status(200)
 }

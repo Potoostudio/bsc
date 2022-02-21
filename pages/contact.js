@@ -35,6 +35,7 @@ export default function Contact() {
         }).then((res) => {
             if (res.status === 200) {
               setSubmitted(true)
+              console.log('Form sent!');
             }
           })
 
