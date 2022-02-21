@@ -22,7 +22,7 @@ export default function Patent() {
                     </h1>
                     <div className="patent-pic-div">
                         <Image
-                        src="/Patent-pic.jpg"
+                        src="/patent-pic.jpg"
                         width={269}
                         height={429}
                         alt="BSC Patent"
