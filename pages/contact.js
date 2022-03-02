@@ -7,8 +7,8 @@ export default function Contact(){
 
     return (
         <>
-        <div className="conainer">
-            <div className="row">
+        <div className="conainer pt-md-5 mt-md-5">
+            <div className="row justify-content-center">
                 <div className="col-md-7 col-10">
                     <div className="elfsight-app-f65555dc-0b73-4093-80ad-e3eb68ff0b1b p-5 mt-5 p-md-0"></div>
                 </div>
