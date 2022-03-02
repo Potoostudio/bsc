@@ -57,7 +57,7 @@ export default function WallMount() {
                 
                 <Link href="/baseline-wall-recess-mount">
                   <a className="product-title pt-md-4 pt-3">
-                  Baseline Wall - Recess Mount 32" - 75"
+                    Baseline Wall - Recess Mount 32" - 75"
                   </a>
                 </Link>
               </div>

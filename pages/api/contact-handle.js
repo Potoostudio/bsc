@@ -11,12 +11,9 @@ export default function (req, res) {
         secure: false,
         requireTLS: true,
         auth: {
-            user: 'bscenclosurescontact@gmail.com',
-            pass: 'BscWebsite19!'
+            user: process.env.EMAIL,
+            pass: process.env.PASSWORD
         },
-        // tls: {
-        //   rejectUnauthorized:false
-        // }
     });
 
     const mailData = {
